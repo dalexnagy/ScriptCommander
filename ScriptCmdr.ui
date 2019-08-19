@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>465</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_Browse">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>121</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="list_Scripts">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>371</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="selectionRectVisible">
+     <bool>true</bool>
+    </property>
+    <property name="sortingEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Exit">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>560</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_ScriptList">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>371</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Scripts</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>500</y>
+      <width>371</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Select an Item; Then press Edit or Delete it</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Edit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>520</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Delete">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>520</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

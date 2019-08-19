@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scripts>
+<script name="Script Commander"><path>/home/dave/Python/ScriptCmdr/ScriptCmdr.py</path><runEnv>terminal-open</runEnv><Desc>This program</Desc><type>python</type>></scripts>
