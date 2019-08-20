@@ -16,3 +16,13 @@ When setting up a new script in the list (XML file), the user find and selects t
 The second program is the actual indicator app to run a script with two clicks of the mouse.  If the user has said that a script needs parameters or values to execute, a form dialog will pop up.  This program can be started at boot time and has an icon in the 'system tray' where scripts are selected and started.
 
 After a script executes, a dialog may pop up (if requested during setup of a new script or modified later) to show messages or the user can choose just to see the return value (a number that script sets when exiting).
+
+FILES:
+
+DialogEntry.ui        QT form for a new dialog.  Used by ScriptCmdr
+scriptcmdrappind.py   Program to select and start a script.  This is the app indicator program
+scriptcmdr_icon.png   ICON displayed in OS indicator window
+ScriptCmdr.py         Program to add/modify/delete scripts in XML file
+ScriptCmdr.ui         QT form displayed by ScriptCmdr program
+scripts_base.xml      Starter XML file - Contains entry for ScriptCmdr ONLY
+scripts.xml           * NOT IN PACKAGE * This is the XML file containing the list of scripts
